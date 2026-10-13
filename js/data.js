@@ -4,19 +4,23 @@ const APPS = [
     title: 'About Me',
     icon: 'about',
     label: 'About Me',
-    width: 500,
+    width: 750,
     html: `
-      <h1>Hi, I'm Dhairyasheel Wangdare</h1>
-      <p>I'm a Computer Science Engineering (Data Science) graduate from Kolhapur, Maharashtra, who builds machine learning systems and data analytics projects.</p>
-      <p>I've worked on a multimodal ML pipeline at IIT Bombay and a deep learning medical imaging system with Grad-CAM explainability.</p>
-      <h2>Quick facts</h2>
-      <ul>
-        <li><b>Education:</b> B.Tech CSE (Data Science), Dr. D.Y. Patil College of Engineering &amp; Technology, 2026</li>
-        <li><b>Experience:</b> Data Science &amp; ML Intern at IIT Bombay</li>
-        <li><b>Interests:</b> Deep Learning, Medical AI, Data Analytics</li>
-        <li><b>Languages:</b> Hindi, English, Marathi, Deutsch</li>
-      </ul>
-    `
+    <h2>Hi, I'm Dhairyasheel Wangdare</h2>
+    <p>I'm a recently graduated <b>Data Science specialist</b> from Kolhapur, Maharashtra. I focus primarily on <b>data analytics</b>, <b>ETL processes</b>, and <b>statistical modeling</b>, building <b>data processing pipelines</b> and extracting actionable insights. This is complemented by a strong foundation in <b>machine learning</b> and <b>deep learning</b>.</p>
+    
+    <p>My experience includes handling complex <b>multimodal EEG and GSR data</b> during my internship at <b>IIT Bombay</b>. I have also built an end-to-end interactive <b>e-commerce analytics</b> project utilizing <b>PySpark, Docker, Pandas, and Streamlit</b>, as well as developing <b>MedDetect</b>, a <b>CNN-based medical imaging</b> system utilizing <b>Grad-CAM explainability</b>.</p>
+    
+    <h3>Quick facts</h3>
+    <ul>
+      <li><b>Preferred Roles:</b> Data Scientist, Data Analyst, Machine Learning Engineer, BI Analyst, AI / Computer Vision Engineer</li>
+      <li><b>Education:</b> Graduate in B.Tech CSE-Data Science, D.Y.P.C.E.T (CGPA: 6.72) .</li>
+      <li><b>Experience:</b> Data Science and Machine Learning Intern at IIT Bombay | Android Developer Intern at Softron</li>
+      <li><b>Tech Stack:</b> Python, SQL, PySpark, Docker, Power BI, Tableau, and Streamlit</li>
+      <li><b>Languages:</b> Hindi, English, Marathi, Deutsch</li>
+    </ul>
+    <!-- Keep your visitor counter code here if you placed it inside this window previously -->
+  `
   },
   {
     id: 'resume',
@@ -112,6 +116,35 @@ const APPS = [
       </div>
     `
   },
+  {
+      id: 'live-demos',
+      title: 'Live Demos',
+      icon: 'projects',
+      label: 'Live Demos',
+      width: 650,
+      html: `
+        <h1>Live Project Demos</h1>
+        <p>Test my deployed machine learning models and analytics dashboards directly in your browser.</p>
+        
+        <div class="project">
+          <h3>🩺 MedDetect AI</h3>
+          <p>A CNN-based medical imaging system utilizing Grad-CAM explainability for MRI and CT image classification.</p>
+          <a class="btn" href="https://meddetect-frontend.vercel.app/" target="_blank">Launch Live Demo</a>
+          
+          <div style="margin-top: 15px; padding-top: 10px; border-top: 1px dashed #ccc;">
+            <p style="margin-bottom: 10px; font-size: 14px;"><b>Want to test it yourself?</b> Download sample scans:</p>
+            <a class="btn" href="assets/demonstration_brain.zip" download>Test Brain Scans</a>
+            <a class="btn" href="assets/demonstration_kidney.zip" download>Test Kidney Scans</a>
+          </div>
+        </div>
+        
+        <div class="project">
+          <h3>🛒 E-Commerce Analytics Dashboard</h3>
+          <p>An interactive data processing and visualization dashboard built with PySpark, Docker, Pandas, and Streamlit. (!! Streamlit may take a few secs to load)</p>
+          <a class="btn" href="https://large-ecommerce-analytics-proj.streamlit.app/" target="_blank">Launch Live Dashboard</a>
+        </div>
+      `
+    },
   {
     id: 'experience',
     title: 'Experience',
